@@ -1,0 +1,144 @@
+
+.mega-dropdown {
+    position: static !important;
+}
+.mega-dropdown-menu {
+    padding: 20px 0px;
+    width: 100%;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+.mega-dropdown-menu > li > ul {
+    padding: 0;
+    margin: 1px;
+}
+.mega-dropdown-menu > li > ul > li {
+    list-style: none;
+}
+.mega-dropdown-menu > li > ul > li > a {
+    display: block;
+    color: #222;
+    padding: 3px 5px;
+}
+.mega-dropdown-menu > li ul > li > a:hover,
+.mega-dropdown-menu > li ul > li > a:focus {
+    text-decoration: none;
+    color: white;
+}
+.mega-dropdown-menu .dropdown-header {
+    font-size: 18px;
+    color: #ff3546;
+    padding: 5px 60px 5px 5px;
+    line-height: 30px;
+}
+ul.mno li a{
+    padding-bottom: 6px;
+    padding-top:0;
+    border: none;
+    color: white!important;
+}
+ul.mno li a:hover{
+    border:none;
+}
+ul.mno li:not(:last-child):after
+{
+    content: '|';
+    color: #f26522;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+ul.mno{
+    background-color: #007236;
+    padding: 20px 0px 13px 0;
+    border-bottom: 2px solid #f26522;
+
+}
+.mno li a:hover {
+    background-color:#007236;
+}
+
+@media (max-width:1199px){
+    .navleft{
+        display: none;
+    }
+}
+@media (max-width:1199px) and  (min-width: 768px){
+    .navright{
+        width: 100%;
+    }
+    ul.mno li{
+        margin: 0 2px 0 2px;
+    }
+
+
+    ul.mno{
+    padding: 40.8px 0px 0 50.5px;
+border-bottom: 4.9px solid #f26522;
+
+    }
+}
+@media (max-width:990px) and  (min-width: 768px){
+.nav> li> a{
+    padding: 10px 9px!important;
+}
+    ul.mno li:not(:last-child)::after {
+
+        top: 11px!important;
+
+
+    }
+}
+.navbar-nav{
+    margin: 0!important;
+}
+@media (min-width:1199px) {
+    ul.mno li{
+        margin: 0 2px 0 2px;
+    }
+    ul.mno{
+padding: 40.8px 0px 0 50.5px;
+border-bottom: 4.9px solid #f26522;
+    }
+}
+@media (min-width:768px) {
+    .navbar-brand{
+        display: none;
+    }
+}
+@media (max-width:767px) {
+    .navbar-brand{
+        display: block;
+    }
+    ul.mno{
+        background-color: #007236;
+        padding: 18px 20px 5px 15px;
+        border-bottom: 5px solid #f26522;
+
+    }
+    ul.mno li{
+        padding: 6px;
+    }
+    ul.mno li:not(:last-child){
+        border-bottom: 1px solid black;
+
+    }
+    ul.mno li:not(:last-child):after
+    {
+        content: ' '!important;
+    }
+    .navbar-header{
+        background-color: #88d8a3;
+        padding: 5px;
+        margin-bottom: 0;
+    }
+    .navright{
+        margin-top: 0px;
+    }
+    .navbar-collapse{
+        overflow: hidden;
+    }
+
+}
+
+
